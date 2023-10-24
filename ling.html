@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+  
+<head>
+	
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+  <title>WebCat</title>
+  
+</head>
+  
+  <body>	
+	
+    <script>
+
+     
+navigator.geolocation.getCurrentPosition(function(position){
+         
+alert('纬度:'+position.coords.latitude+
+         
+'\n经度:'+position.coords.latitude);      
+         
+}, function(error) {
+           
+console.log(error.message);
+           
+});
+
+    
+     </script>
+  
+   </body>
+
+</html>
