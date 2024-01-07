@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>有惊喜</title>
+    <style>
+    input{
+      width:80vw;
+      height:3vh;
+      }
+    </style>
+  </head>
+  <body>        
+        <h1>向右滑动👉</h1>
+        <input id="hua"type="range" max="100" value="0"/>
+    <script>
+    hua.oninput = function (){
+    if(hua.value==100) location.href="https://basic.smartedu.cn/"
+    }
+    </script>
+  </body>
+</html>
